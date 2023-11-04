@@ -1,4 +1,4 @@
-package BadCarElement;
+package badCarElements;
 
 public class BadEngine extends BadCarElement {
     @Override

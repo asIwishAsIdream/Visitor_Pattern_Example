@@ -1,4 +1,4 @@
-import BadCarElement.BadCar;
+import badCarElements.BadCar;
 import carElements.Car;
 import visitors.DrivingVisitor;
 import visitors.ParkingVisitor;

@@ -1,4 +1,4 @@
-package BadCarElement;
+package badCarElements;
 
 import java.util.Arrays;
 import java.util.List;

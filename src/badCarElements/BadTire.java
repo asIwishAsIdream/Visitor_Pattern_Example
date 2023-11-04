@@ -1,4 +1,4 @@
-package BadCarElement;
+package badCarElements;
 
 public class BadTire extends BadCarElement {
     public void driveGear() {
