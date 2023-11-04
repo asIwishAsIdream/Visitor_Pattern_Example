@@ -12,6 +12,6 @@ public class BadCar extends BadCarElement {
 
     @Override
     public void driveGear() {
-        e.forEach(x -> x.driveGear());
+        e.forEach(BadCarElement::driveGear);
     }
 }
