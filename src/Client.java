@@ -15,12 +15,12 @@ public class Client {
         ParkingVisitor pv = new ParkingVisitor();
 
         System.out.println("Driving Gear :");
-        ecu.changeGear(dv);
+        ecu.changeElementsByGear(dv);
 
         System.out.println();
 
         System.out.println("Parking Gear :");
-        ecu.changeGear(pv);
+        ecu.changeElementsByGear(pv);
     }
 
     private static void badCar() {

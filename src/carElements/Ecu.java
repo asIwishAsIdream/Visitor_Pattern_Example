@@ -13,7 +13,7 @@ public class Ecu {
             new Tire());
 
 
-    public void changeGear(Visitor v) {
+    public void changeElementsByGear(Visitor v) {
         elements.forEach(x -> x.accept(v));
     }
 }
