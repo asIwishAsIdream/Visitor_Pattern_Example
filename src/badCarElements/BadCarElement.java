@@ -1,7 +1,7 @@
 package badCarElements;
 
 public abstract class BadCarElement {
-    public abstract void driveGear();
+    public abstract void onDriveGear();
 
     /*
     * 파킹 기어일 때 행위를 추가 하려면?
