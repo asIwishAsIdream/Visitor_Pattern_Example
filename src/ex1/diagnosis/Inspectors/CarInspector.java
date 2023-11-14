@@ -11,7 +11,7 @@ public class CarInspector {
     public void diagnosis(Car car) {
         List<CarElement> elements = car.getElements();
         for (CarElement element : elements) {
-            element.expireDate();
+            element.problem();
         }
     }
 

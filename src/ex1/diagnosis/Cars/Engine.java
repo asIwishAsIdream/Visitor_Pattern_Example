@@ -2,7 +2,7 @@ package ex1.diagnosis.Cars;
 
 public class Engine implements CarElement {
     @Override
-    public Object expireDate() {
+    public Object problem() {
         return null;
     }
 
