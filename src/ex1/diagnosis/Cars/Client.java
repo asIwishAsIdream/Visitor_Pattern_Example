@@ -9,9 +9,20 @@ public class Client {
   CarElement tire = new Tire();
 
   Monitor monitor = new Monitor();
-  List<Object> elements = Arrays.asList(
-    monitor.getStatus(engine)
-    monitor.getStatus(lights)
-    monitor.getStatus(tire)
-  )
+  
+  // 상태(Status)를 체크하는 elements 리스트 생성
+  List<Object> statusElements = Arrays.asList(
+      monitor.getStatus(engine),
+      monitor.getStatus(lights),
+      monitor.getStatus(tire)
+  );
+  
+  // 문제(Diagnosis)를 체크하는 elements 리스트 생성
+  Diagnosis diagnosis = new Diagnosis();
+  
+  List<Object> problemElements = Arrays.asList(
+      monitor.getProblem(engine),
+      monitor.getProblem(lights),
+      monitor.getProblem(tire)
+  );
 }
