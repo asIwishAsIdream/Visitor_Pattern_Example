@@ -7,8 +7,8 @@ public class MonitorSW {
      carElement.getStatus()
   } 
 
-  public void getProblem(CarElement carElement) {
-     carElement.getProblem()
+  public void diagnosis(CarElement carElement) {
+     carElement.diagnosis()
 }
 
 
