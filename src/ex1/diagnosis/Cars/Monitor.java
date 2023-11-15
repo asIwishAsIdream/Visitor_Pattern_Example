@@ -16,6 +16,6 @@ public class MonitorSW {
 public class Diagnosis {
   
   public void getProblem(CarElement carElement) {
-     carElement.getgetProblem()
+     carElement.getProblem()
   } 
 }
