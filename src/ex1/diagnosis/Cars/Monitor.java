@@ -3,12 +3,17 @@
 
 public class MonitorSW {
   
-  public void getStatus(CarElement carElement) {
-     carElement.getStatus()
+  public void getEachStatus(CarElement carElement) {
+    if (carElement instanceof Engine){
+      carElement.getPower()
+    }
+    else if (carElement instanceof Lights){
+      carElement.getBrightness()
+    }
+    else if (carElement instanceof Tire){
+      carElement.getChangedDate()
+    }
   } 
-
-  public void diagnosis(CarElement carElement) {
-     carElement.diagnosis()
 }
 
 
