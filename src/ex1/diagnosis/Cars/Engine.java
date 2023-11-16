@@ -1,13 +1,17 @@
 package ex1.diagnosis.Cars;
 
 public class Engine implements CarElement {
-    @Override
-    public Object problem() {
-        return null;
-    }
+
+    String power = "Strong"    
+    String restOil = "Full"
 
     @Override
-    public Object status() {
-        return null;
+    public void diagnosis() {
+        System.out.println(this.restOil);
     }
+
+    public String getPower() {
+        return this.power;
+    }    
+
 }
