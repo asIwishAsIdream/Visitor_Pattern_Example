@@ -13,6 +13,6 @@ public class Client {
     MonitorSW monitor = new MonitorSW();
     for( CarElement element : elements )
     {
-        monitor.getStatus(element);
+        monitor.getEachStatus(element);
     }
 }
