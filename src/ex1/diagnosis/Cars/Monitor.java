@@ -2,6 +2,10 @@
 
 
 public class MonitorSW {
+
+  public void doDignosis(CarElement carElement){
+    carElement.doDiagnosis();
+  }
   
   public void getEachStatus(CarElement carElement) {
     if (carElement instanceof Engine){
@@ -18,9 +22,3 @@ public class MonitorSW {
 
 
 
-public class Diagnosis {
-  
-  public void getProblem(CarElement carElement) {
-     carElement.getProblem()
-  } 
-}
