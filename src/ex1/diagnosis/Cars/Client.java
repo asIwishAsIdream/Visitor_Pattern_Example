@@ -10,7 +10,7 @@ public class Client {
         new Tire();
     }
 
-    Monitor monitor = new Monitor();
+    MonitorSW monitor = new MonitorSW();
     for( CarElement element : elements )
     {
         monitor.getStatus(element);
