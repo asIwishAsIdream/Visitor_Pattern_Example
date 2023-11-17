@@ -4,7 +4,7 @@
 public class MonitorSW {
 
   public void doDignosis(CarElement carElement){
-    carElement.doDiagnosis();
+    carElement.diagnosis();
   }
   
   public void getEachStatus(CarElement carElement) {
